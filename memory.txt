@@ -1,0 +1,53 @@
+PS C:\Users\Wilso\OneDrive\Desktop\HuggingFaceCode> git remote add origin https://huggingface.co/spaces/TechKid0109/Detox-Extension
+error: remote origin already exists.
+PS C:\Users\Wilso\OneDrive\Desktop\HuggingFaceCode> git add .
+PS C:\Users\Wilso\OneDrive\Desktop\HuggingFaceCode> git commit -m "HEHEHEHAHO"
+[main d14dd17] HEHEHEHAHO
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\Wilso\OneDrive\Desktop\HuggingFaceCode> git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 239 bytes | 239.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/cool205/HUGGINGFACE.git
+   e83ff6f..d14dd17  main -> main
+PS C:\Users\Wilso\OneDrive\Desktop\HuggingFaceCode> git init
+>> git add -A
+>> git commit -m "Initial Space commit"
+Reinitialized existing Git repository in C:/Users/Wilso/OneDrive/Desktop/HuggingFaceCode/.git/
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   ClassificationModel (untracked content)
+        modified:   spaceCode (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\Wilso\OneDrive\Desktop\HuggingFaceCode> cd "spaceCode"
+PS C:\Users\Wilso\OneDrive\Desktop\HuggingFaceCode\spaceCode> git init
+>> git add -A
+>> git commit -m "Initial Space commit"
+Reinitialized existing Git repository in C:/Users/Wilso/OneDrive/Desktop/HuggingFaceCode/spaceCode/.git/
+[main d0ba2fa] Initial Space commit
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+PS C:\Users\Wilso\OneDrive\Desktop\HuggingFaceCode\spaceCode> git remote add space https://huggingface.co/spaces/TechKid0109/Detox-Extension
+>>
+>> # Push to Hugging Face (overwrite remote if needed)
+>> git push -u space main --force
+error: remote space already exists.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 296 bytes | 296.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://huggingface.co/spaces/TechKid0109/Detox-Extension
+   e0bee4f..d0ba2fa  main -> main
+branch 'main' set up to track 'space/main'.
+PS C:\Users\Wilso\OneDrive\Desktop\HuggingFaceCode\spaceCode> 
